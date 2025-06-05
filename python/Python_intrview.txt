@@ -1,0 +1,12 @@
+Python Sample
+Python Interview Question
+https://www.edureka.co/blog/interview-questions/python-interview-questions/
+
+1)	Missing element in an array?
+
+	program:
+
+	missing_list=[1,2,3,7,9]
+	newlist=list(range(missing_list[0],missing_list[-1]+1))
+	result=set(missing_list)^set(newlist)
+	print(result)
